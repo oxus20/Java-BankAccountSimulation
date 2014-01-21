@@ -2,7 +2,7 @@
 The Bank Account Simulation example covers most Object Oriented Programming features i.e. Class, Object, Inheritance, Polymorphism, Encapsulation, etc.
 
 ## BankAccount Blueprint and Template
-1. ** State / Attributes**
+1. **State / Attributes**
 
   1. accountName
   
@@ -10,7 +10,7 @@ The Bank Account Simulation example covers most Object Oriented Programming feat
   
   3. balance
   
-2. ** Behaviors / Methods
+2. **Behaviors / Methods**
 
   1. BankAccount(String accNumber, String accName)
   
@@ -45,7 +45,7 @@ Following BankAccountDemo.java demonstrates the use of BankAccount.java
  ```
  
 ## SavingsAccount Blueprint and Template
-1. ** State / Attributes**
+1. **State / Attributes**
 
   1. interestRate
   
@@ -55,7 +55,7 @@ Following BankAccountDemo.java demonstrates the use of BankAccount.java
 
   4. balance		// _inherited from BankAccount_
 
-2. ** Behaviors / Methods
+2. **Behaviors / Methods**
 
   1. SavingsAccount(String accNumber, String accName, double rate)
   
@@ -91,7 +91,7 @@ Following SavingsAccountDemo.java demonstrates the use of SavingsAccount.java
  ```
   
 ## CheckingAccount Blueprint and Template
-1. ** State / Attributes**
+1. **State / Attributes**
 
   1. transactionCount
   
@@ -105,7 +105,7 @@ Following SavingsAccountDemo.java demonstrates the use of SavingsAccount.java
   
   6. balance		// _inherited from BankAccount_
   
-2. ** Behaviors / Methods
+2. **Behaviors / Methods**
 
   1. CheckingAccount(String accNumber, String accName)
   
