@@ -2,17 +2,27 @@
 The Bank Account Simulation example covers most Object Oriented Programming features i.e. Class, Object, Inheritance, Polymorphism, Encapsulation, etc.
 
 ## BankAccount Blueprint and Template
-*. ** State / Attributes**
-``* accountName
-``* accountNumber
-``* balance
-*. ** Behaviors / Methods
-``* BankAccount(String accNumber, String accName)
-``* getAccountName()
-``* getAccountNumber()
-``* getBalance() 
-``* deposit(double amount)
-``* withdraw(double amount)
+1. ** State / Attributes**
+
+  1. accountName
+  
+  2. accountNumber
+  
+  3. balance
+  
+2. ** Behaviors / Methods
+
+  1. BankAccount(String accNumber, String accName)
+  
+  2. getAccountName()
+  
+  3. getAccountNumber()
+  
+  4. getBalance() 
+  
+  5. deposit(double amount)
+  
+  6. withdraw(double amount)
 
 ### BankAccount Demo
 Following BankAccountDemo.java demonstrates the use of BankAccount.java
@@ -36,19 +46,32 @@ Following BankAccountDemo.java demonstrates the use of BankAccount.java
  
 ## SavingsAccount Blueprint and Template
 1. ** State / Attributes**
-``* interestRate
-``* accountName		// _inherited from BankAccount_
-``* accountNumber	// _inherited from BankAccount_
-``* balance			// _inherited from BankAccount_
+
+  1. interestRate
+  
+  2. accountName	// _inherited from BankAccount_
+
+  3. accountNumber	// _inherited from BankAccount_
+
+  4. balance		// _inherited from BankAccount_
+
 2. ** Behaviors / Methods
-``* SavingsAccount(String accNumber, String accName, double rate)
-``* addInterest()
-``* BankAccount(String accNumber, String accName) // _inherited from BankAccount_
-``* getAccountName()		// _inherited from BankAccount_
-``* getAccountNumber()		// _inherited from BankAccount_
-``* getBalance() 			// _inherited from BankAccount_
-``* deposit(double amount)	// _inherited from BankAccount_
-``* withdraw(double amount)	// _inherited from BankAccount_
+
+  1. SavingsAccount(String accNumber, String accName, double rate)
+  
+  2. addInterest()
+
+  3. BankAccount(String accNumber, String accName) // _inherited from BankAccount_
+  
+  4. getAccountName()		// _inherited from BankAccount_
+  
+  5. getAccountNumber()		// _inherited from BankAccount_
+  
+  6. getBalance() 			// _inherited from BankAccount_
+  
+  7. deposit(double amount)	// _inherited from BankAccount_
+  
+  8. withdraw(double amount)	// _inherited from BankAccount_
 
 ### SavingsAccount Demo
 Following SavingsAccountDemo.java demonstrates the use of SavingsAccount.java
@@ -69,23 +92,40 @@ Following SavingsAccountDemo.java demonstrates the use of SavingsAccount.java
   
 ## CheckingAccount Blueprint and Template
 1. ** State / Attributes**
-``* transactionCount
-``* NUM_FREE
-``* TRANS_FEE
-``* accountName		// _inherited from BankAccount_
-``* accountNumber	// _inherited from BankAccount_
-``* balance			// _inherited from BankAccount_
+
+  1. transactionCount
+  
+  2. NUM_FREE
+  
+  3. TRANS_FEE
+  
+  4. accountName	// _inherited from BankAccount_
+  
+  5. accountNumber	// _inherited from BankAccount_
+  
+  6. balance		// _inherited from BankAccount_
+  
 2. ** Behaviors / Methods
-``* CheckingAccount(String accNumber, String accName)
-``* BankAccount(String accNumber, String accName) // _inherited from BankAccount_
-``* getAccountName()		// _inherited from BankAccount_
-``* getAccountNumber()		// _inherited from BankAccount_
-``* getBalance() 			// _inherited from BankAccount_
-``* deductFees()
-``* deposit(double amount)	// _Overridden_
-``* withdraw(double amount)	// _Overridden_
-``* deposit(double amount)	// _inherited from BankAccount_
-``* withdraw(double amount)	// _inherited from BankAccount_
+
+  1. CheckingAccount(String accNumber, String accName)
+  
+  2. BankAccount(String accNumber, String accName) // _inherited from BankAccount_
+  
+  3. getAccountName()		// _inherited from BankAccount_
+  
+  4. getAccountNumber()		// _inherited from BankAccount_
+  
+  5. getBalance() 			// _inherited from BankAccount_
+  
+  6. deductFees()
+  
+  7. deposit(double amount)	// _Overridden_
+  
+  8. withdraw(double amount)	// _Overridden_
+  
+  9. deposit(double amount)	// _inherited from BankAccount_
+  
+  10. withdraw(double amount)	// _inherited from BankAccount_
 
 ### CheckingAccount Demo
 Following CheckingAccountDemo.java demonstrates the use of CheckingAccount.java
